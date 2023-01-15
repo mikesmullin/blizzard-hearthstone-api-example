@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "View your card data using Blizzard's Hearthstone API.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Smullin <mike@mikesmullin.com>",
+  "license": "Unlicensed",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  }
+}
